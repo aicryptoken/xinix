@@ -2,264 +2,199 @@
   "version": 3,
   "rules": [
     {
-      "ip_cidr": ["192.168.0.0/16"],
-      "outbound": "direct"
+      "ip_cidr": ["192.168.0.0/16"]
     },
     {
-      "ip_cidr": ["192.168.1.1/32"],
-      "outbound": "direct"
+      "ip_cidr": ["192.168.1.1/32"]
     },
     {
-      "domain": ["browser-intake-datadoghq.com"],
-      "outbound": "proxy"
+      "domain": ["browser-intake-datadoghq.com"]
     },
     {
-      "domain": ["chat.openai.com.cdn.cloudflare.net"],
-      "outbound": "proxy"
+      "domain": ["chat.openai.com.cdn.cloudflare.net"]
     },
     {
-      "domain": ["openai-api.arkoselabs.com"],
-      "outbound": "proxy"
+      "domain": ["openai-api.arkoselabs.com"]
     },
     {
-      "domain": ["openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net"],
-      "outbound": "proxy"
+      "domain": ["openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net"]
     },
     {
-      "domain": ["openaicomproductionae4b.blob.core.windows.net"],
-      "outbound": "proxy"
+      "domain": ["openaicomproductionae4b.blob.core.windows.net"]
     },
     {
-      "domain": ["production-openaicom-storage.azureedge.net"],
-      "outbound": "proxy"
+      "domain": ["production-openaicom-storage.azureedge.net"]
     },
     {
-      "domain": ["static.cloudflareinsights.com"],
-      "outbound": "proxy"
+      "domain": ["static.cloudflareinsights.com"]
     },
     {
-      "domain": ["cdn.usefathom.com"],
-      "outbound": "proxy"
+      "domain": ["cdn.usefathom.com"]
     },
     {
-      "domain": ["api.openai.com"],
-      "outbound": "proxy"
+      "domain": ["api.openai.com"]
     },
     {
-      "domain": ["chat.openai.com"],
-      "outbound": "proxy"
+      "domain": ["chat.openai.com"]
     },
     {
-      "domain": ["auth0.openai.com"],
-      "outbound": "proxy"
+      "domain": ["auth0.openai.com"]
     },
     {
-      "domain": ["notebooklm.google.com"],
-      "outbound": "proxy"
+      "domain": ["notebooklm.google.com"]
     },
     {
-      "domain": ["ai.google.dev"],
-      "outbound": "proxy"
+      "domain": ["ai.google.dev"]
     },
     {
-      "domain": ["alkalimakersuite-pa.clients6.google.com"],
-      "outbound": "proxy"
+      "domain": ["alkalimakersuite-pa.clients6.google.com"]
     },
     {
-      "domain": ["makersuite.google.com"],
-      "outbound": "proxy"
+      "domain": ["makersuite.google.com"]
     },
     {
-      "domain_suffix": [".ai.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".ai.com"]
     },
     {
-      "domain_suffix": [".algolia.net"],
-      "outbound": "proxy"
+      "domain_suffix": [".algolia.net"]
     },
     {
-      "domain_suffix": [".api.statsig.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".api.statsig.com"]
     },
     {
-      "domain_suffix": [".auth0.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".auth0.com"]
     },
     {
-      "domain_suffix": [".chatgpt.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".chatgpt.com"]
     },
     {
-      "domain_suffix": [".chatgpt.livekit.cloud"],
-      "outbound": "proxy"
+      "domain_suffix": [".chatgpt.livekit.cloud"]
     },
     {
-      "domain_suffix": [".client-api.arkoselabs.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".client-api.arkoselabs.com"]
     },
     {
-      "domain_suffix": [".events.statsigapi.net"],
-      "outbound": "proxy"
+      "domain_suffix": [".events.statsigapi.net"]
     },
     {
-      "domain_suffix": [".featuregates.org"],
-      "outbound": "proxy"
+      "domain_suffix": [".featuregates.org"]
     },
     {
-      "domain_suffix": [".host.livekit.cloud"],
-      "outbound": "proxy"
+      "domain_suffix": [".host.livekit.cloud"]
     },
     {
-      "domain_suffix": [".identrust.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".identrust.com"]
     },
     {
-      "domain_suffix": [".intercom.io"],
-      "outbound": "proxy"
+      "domain_suffix": [".intercom.io"]
     },
     {
-      "domain_suffix": [".intercomcdn.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".intercomcdn.com"]
     },
     {
-      "domain_suffix": [".launchdarkly.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".launchdarkly.com"]
     },
     {
-      "domain_suffix": [".oaistatic.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".oaistatic.com"]
     },
     {
-      "domain_suffix": [".oaiusercontent.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".oaiusercontent.com"]
     },
     {
-      "domain_suffix": [".observeit.net"],
-      "outbound": "proxy"
+      "domain_suffix": [".observeit.net"]
     },
     {
-      "domain_suffix": [".openai.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".openai.com"]
     },
     {
-      "domain_suffix": [".openaiapi-site.azureedge.net"],
-      "outbound": "proxy"
+      "domain_suffix": [".openaiapi-site.azureedge.net"]
     },
     {
-      "domain_suffix": [".openaicom.imgix.net"],
-      "outbound": "proxy"
+      "domain_suffix": [".openaicom.imgix.net"]
     },
     {
-      "domain_suffix": [".segment.io"],
-      "outbound": "proxy"
+      "domain_suffix": [".segment.io"]
     },
     {
-      "domain_suffix": [".sentry.io"],
-      "outbound": "proxy"
+      "domain_suffix": [".sentry.io"]
     },
     {
-      "domain_suffix": [".stripe.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".stripe.com"]
     },
     {
-      "domain_suffix": [".turn.livekit.cloud"],
-      "outbound": "proxy"
+      "domain_suffix": [".turn.livekit.cloud"]
     },
     {
-      "domain_suffix": [".anthropic.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".anthropic.com"]
     },
     {
-      "domain_suffix": [".claude.ai"],
-      "outbound": "proxy"
+      "domain_suffix": [".claude.ai"]
     },
     {
-      "domain_suffix": [".bard.google.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".bard.google.com"]
     },
     {
-      "domain_suffix": [".jules.google"],
-      "outbound": "proxy"
+      "domain_suffix": [".jules.google"]
     },
     {
-      "domain_suffix": [".deepmind.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".deepmind.com"]
     },
     {
-      "domain_suffix": [".deepmind.google"],
-      "outbound": "proxy"
+      "domain_suffix": [".deepmind.google"]
     },
     {
-      "domain_suffix": [".gemini.google"],
-      "outbound": "proxy"
+      "domain_suffix": [".gemini.google"]
     },
     {
-      "domain_suffix": [".generativeai.google"],
-      "outbound": "proxy"
+      "domain_suffix": [".generativeai.google"]
     },
     {
-      "domain_suffix": [".proactivebackend-pa.googleapis.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".proactivebackend-pa.googleapis.com"]
     },
     {
-      "domain_suffix": [".apis.google.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".apis.google.com"]
     },
     {
-      "domain_suffix": [".api.google.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".api.google.com"]
     },
     {
-      "domain_suffix": [".generativelanguage.googleapis.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".generativelanguage.googleapis.com"]
     },
     {
-      "domain_suffix": [".aistudio.google.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".aistudio.google.com"]
     },
     {
-      "domain_suffix": [".cloud.google.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".cloud.google.com"]
     },
     {
-      "domain_suffix": [".googleapis.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".googleapis.com"]
     },
     {
-      "domain_suffix": [".google.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".google.com"]
     },
     {
-      "domain_suffix": [".gstatic.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".gstatic.com"]
     },
     {
-      "domain_suffix": [".accounts.google.com"],
-      "outbound": "proxy"
+      "domain_suffix": [".accounts.google.com"]
     },
     {
-      "domain_keyword": ["openai"],
-      "outbound": "proxy"
+      "domain_keyword": ["openai"]
     },
     {
-      "domain_keyword": ["cohere"],
-      "outbound": "proxy"
+      "domain_keyword": ["cohere"]
     },
     {
-      "domain_keyword": ["anthropic"],
-      "outbound": "proxy"
+      "domain_keyword": ["anthropic"]
     },
     {
-      "domain_keyword": ["generative"],
-      "outbound": "proxy"
+      "domain_keyword": ["generative"]
     },
     {
-      "ip_cidr": ["24.199.123.28/32"],
-      "outbound": "proxy"
+      "ip_cidr": ["24.199.123.28/32"]
     },
     {
-      "ip_cidr": ["64.23.132.171/32"],
-      "outbound": "proxy"
+      "ip_cidr": ["64.23.132.171/32"]
     }
   ]
 }
